@@ -1,34 +1,39 @@
 <!DOCTYPE html>
     <html>
+
         <head>
             <title>Motorcycles 2022</title>
             <link rel="Icon" href="Images/icon.jpg">
+            <link rel="stylesheet" href="stylesheet.css">
         </head>
-        <header>
-                    <a href="https://www.yamaha-motor.com.ph/motorcycle" target="_blank">
-                        <img src="Images/yamaha.png" height="90"></a>
-                    <a href="https://mc.suzuki.com.ph/" target="_blank">
-                        <img src="Images/suzuki.png" height="90"></a>
-                    <a href="https://www.hondaph.com/" target="_blank">
-                        <img src="Images/honda.png" height="90"></a>
-                    <a href="https://www.kawasaki.ph/" target="_blank">
-                            <img src="Images/kawasaki.png" height="90"></a>
-                    <a href="https://kymco.com.ph/" target="_blank">
-                            <img src="Images/kymco.jpg" height="90"></a>
-                    <a href="https://ktmphilippines.com/" target="_blank">
-                            <img src="Images/ktm.jpg" height="90"></a>
-                    <a href="https://www.bristol-motorcycles.com/" target="_blank">
-                                <img src="Images/bristol.png" height="90"></a>
-                    <a href="http://www.cfmoto.ph/" target="_blank">
-                                <img src="Images/cfmoto.jpg" height="90"></a>
-                    <a href="https://www.sym-global.com/bike-36" target="_blank">
-                                <img src="Images/sym.jpg" height="90"></a>
-            <hr>
+
+        <header id="nav">
+            <a href="https://www.yamaha-motor.com.ph/motorcycle" target="_blank">
+                <img src="Images/yamaha.png" height="90"></a>
+            <a href="https://mc.suzuki.com.ph/" target="_blank">
+                <img src="Images/suzuki.png" height="90"></a>
+            <a href="https://www.hondaph.com/" target="_blank">
+                <img src="Images/honda.png" height="90"></a>
+            <a href="https://www.kawasaki.ph/" target="_blank">
+                <img src="Images/kawasaki.png" height="90"></a>
+            <a href="https://kymco.com.ph/" target="_blank">
+                <img src="Images/kymco.jpg" height="90"></a>
+            <a href="https://ktmphilippines.com/" target="_blank">
+                <img src="Images/ktm.jpg" height="90"></a>
+            <a href="https://www.bristol-motorcycles.com/" target="_blank">
+                <img src="Images/bristol.png" height="90"></a>
+            <a href="http://www.cfmoto.ph/" target="_blank">
+                <img src="Images/cfmoto.jpg" height="90"></a>
+            <a href="https://www.sym-global.com/bike-36" target="_blank">
+                <img src="Images/sym.jpg" height="90"></a>
+        <br>
         </header>
+        
         <body>
-                <table>
+            <table>
+                <div class="mc">
                     <h2>Best selling motorcycles in 2022</h2>
-                    <ol>
+                    <ol class="list">
                         <li>Honda Click 125i</li>
                         <li>Yamaha Aerox 155</li>
                         <li>Yamaha Nmax</li>
@@ -40,47 +45,52 @@
                         <li>Honda BeAT</li>
                         <li>Yamaha Xmax</li>
                     </ol>
-                </table>
-                <form action="process.php" method="post">
-                    <h2>For sample computation please fill out the form:</h2>
-                    <div>    
-                        <strong>                  
-                        <label>BRAND:
-                            <select id="Brands">
-                                <option value="Yamaha">Yamaha</option>
-                                <option value="Suzuki">Suzuki</option>
-                                <option value="Honda">Honda</option>
-                                <option value="Kawasaki">Kawasaki</option>
-                                <option value="Kymco">Kymco</option>
-                                <option value="KTM">KTM</option>
-                                <option value="Bristol">Bristol</option>
-                                <option value="CFMoto">CFMoto</option>
-                                <option value="Sym">Sym</option>
-                            </select>
-                        </label>
-                    </div>   
-                        <br>
-                        <label>Model:
-                            <datalist id="Model">
-                                <option value="Honda Click 125i">Honda</option>
-                                <option value="Aerox 155">Yamaha</option>
-                                <option value="Nmax">Yamaha</option>
-                                <option value="PCX160">Honda</option>
-                                <option value="Sniper 155">Yamaha</option>
-                                <option value="Classic 400i">Bristol</option>
-                                <option value="Mio i125">Yamaha</option>
-                                <option value="BeAT">Honda</option>
-                                <option value="Xmax">Yamaha</option>
-                            </datalist>
-                            <input type="text" name="Model" list="Model"  
-                                placeholder="Motorcycle model">
-                            <br>
-                        </label>
-                    </div>   
-                        <br>
+                </div>
+            </table>
+
+            <form action="process.php" method="post">
+                <h2>For sample computation please fill out the form:</h2>
+                <div class="selection">
+                <div>    
+                <strong>                  
+                <label>BRAND:
+                    <select id="Brands">
+                        <option value="Yamaha">Yamaha</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Kawasaki">Kawasaki</option>
+                        <option value="Kymco">Kymco</option>
+                        <option value="KTM">KTM</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="CFMoto">CFMoto</option>
+                        <option value="Sym">Sym</option>
+                    </select>
+                </label>
+                </div>   
+                <br>
+
+                <label>Model:
+                    <datalist id="Model">
+                        <option value="Honda Click 125i">Honda</option>
+                        <option value="Aerox 155">Yamaha</option>
+                        <option value="Nmax">Yamaha</option>
+                        <option value="PCX160">Honda</option>
+                        <option value="Sniper 155">Yamaha</option>
+                        <option value="Classic 400i">Bristol</option>
+                        <option value="Mio i125">Yamaha</option>
+                        <option value="BeAT">Honda</option>
+                        <option value="Xmax">Yamaha</option>
+                    </datalist>
+
+                <input type="text" name="Model" list="Model" placeholder="Motorcycle model">
+                <br>
+                </label>
+                    <div>   
+                    <br>
                         <label for="firstName">First Name</label>
                         <input type="text" name="firstName" placeholder="First name"
                         id="firstName">
+                    </div>
                     <div>
                         <br>
                         <label for="lastName">Last Name</label>
@@ -106,24 +116,34 @@
                         id="contactNumber">
                     </div>
                     <br>
-                        <input type="submit" name="Submit request">
-                    </strong>
-                </form>
-                <br>
-                <hr>
-                <br>
-                <footer>
-                    Copyright &copy; 2022, Jay Esguerra
-                    
-                    <a href="https://www.facebook.com/imjayesguerra/"
-                    target="_blank">
-                    <img src="Images/facebook.png" height="25">
-                    </a>
+                </div>
+                        <input type="submit" name="Submit request">   
+            </strong>
+            </form>
+            <br>
 
-                    <a href="https://www.linkedin.com/in/john-ray-esguerra-805186231/"
-                        target="_blank">
-                        <img src="Images/linkedin.png" height="25">
+            <div class="mainlink">
+                <li class="link">
+                    <a href="https://www.facebook.com/imjayesguerra/"
+                        target="_blank"> <img src="Images/facebook.png" height="35">
                     </a>
-                </footer>
+                </li>
+                <li class="link">
+                    <a href="https://www.linkedin.com/in/john-ray-esguerra-805186231/"
+                        target="_blank"> <img src="Images/linkedin.png" height="35">
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="http://esguerratechnology.com/"
+                        target="_blank"> <img src="Images/arctic.png" height="35">
+                    </a>
+                </li>
+            </div>
+            </form>
+
+            <footer>
+                Copyright &copy; 2022    
+            </footer>
+            
         </body>
     </html>
