@@ -9,7 +9,6 @@ header {
     padding: 5px;
     margin: 1px;  
 }
-
 .list
 {
  text-align: center;
@@ -57,5 +56,33 @@ footer {
 }
 .selection {
     text-align: left;
-    margin-left: 44%;
+    position: static;
+    margin-left: 40%;
+}
+input {
+    text-align: center;
+}
+#Brands {
+    margin-left: 109px;
+}
+#mModels {
+    margin-left: 123px;
+}
+#firstName {
+    margin-left: 95px;
+}
+#lastName {
+    margin-left: 97px;
+}
+#residentialAddress {
+    margin-left: 36px;
+}
+#EmailAddress {
+    margin-left: 72px;
+}
+#contactNumber {
+    margin-left: 57px;
+}
+#Brands, #mModels, #firstName, #lastName, #residentialAddress, #EmailAddress, #contactNumber {
+    text-align: left;
 }
