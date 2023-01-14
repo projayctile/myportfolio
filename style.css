@@ -69,7 +69,7 @@ body {
 
 #main {
     float: left;
-    width: 70%;
+    width: 60%;
     padding: 0 30px;
     box-sizing: border-box;
 }
@@ -86,7 +86,7 @@ body {
 
 #sidebar {
     float: right;
-    width: 30%;
+    width: 40%;
     background: midnightblue;
     color: whitesmoke;
     padding: 10px;
