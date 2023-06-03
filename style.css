@@ -1,5 +1,5 @@
 body {
-    background-color: lightskyblue;
+    background-color: lightgray;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -18,13 +18,13 @@ body {
 }
 
 #main-header { 
-    background-image: linear-gradient(to left, midnightblue, whitesmoke);
-    color: navy;
+    background-image: linear-gradient(to left, lightgray, whitesmoke);
+    color: lightgray;
     padding-left: 20px;
 }
 
 #navbar {
-    background-color: midnightblue;
+    background-color: lightgray;
     color: whitesmoke;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 #showcase {
-    background-image: url('Images/bg.jpg');
+    background-image: url('Images/still-working.jpg');
     background-position: center right;
     min-height: 300px;
     margin-bottom: 30px;
@@ -87,7 +87,7 @@ body {
 #sidebar {
     float: right;
     width: 40%;
-    background: midnightblue;
+    background: lightgray;
     color: whitesmoke;
     padding: 10px;
     box-sizing: border-box;
@@ -103,7 +103,7 @@ body {
 }
 
 #main-footer {
-    background-color: midnightblue;
+    background-color: lightgray;
     color: whitesmoke;
     position: absolute;
     left: 0;
