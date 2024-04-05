@@ -94,7 +94,7 @@ body {
 }
 
 .home {
-    background: url('./Images/bg.jpg') no-repeat;
+    background-image: url('Images/still-working.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
