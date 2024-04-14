@@ -24,6 +24,7 @@ html {
 }
 
 body {
+    background: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -57,7 +58,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-image: url('Images/bg002.jpg');
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
     border-radius: 2px;
@@ -142,7 +143,7 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-image: url('Images/bg001.jpg');
     animation: showRight 1s ease forwards;
     animation-delay: 2.5s;
     z-index: 2;
