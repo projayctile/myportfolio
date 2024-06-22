@@ -4,4 +4,4 @@ To do:
 2. Tab feature checking - Done
 3. "My Experience" tab
 4. Adding description
-5.
+5. Upload CV 
